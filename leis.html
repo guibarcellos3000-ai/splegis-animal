@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lista pesquisável das leis de proteção animal aplicáveis ao Estado e ao Município de São Paulo.">
+  <title>Leis de Proteção Animal — SPLegis Animal</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html"><span class="logo-icon" aria-hidden="true">🐾</span> SPLegis <span class="destaque">Animal</span></a>
+      <nav aria-label="Menu principal">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">☰</button>
+        <ul class="nav-menu" id="menu">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="leis.html" aria-current="page">Leis</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="page-header">
+      <div class="container">
+        <h1>Leis de proteção animal em São Paulo</h1>
+        <p>Normas estaduais, municipais (capital) e federais aplicáveis ao território paulista. Pesquise por número, palavra-chave ou tema, e exporte a lista para o Excel.</p>
+      </div>
+    </section>
+
+    <section class="secao">
+      <div class="container">
+        <form class="filtros" role="search" onsubmit="return false">
+          <div class="campo campo-busca">
+            <label for="busca">Buscar</label>
+            <input type="search" id="busca" placeholder="Ex.: 11.977, maus-tratos, castração…" autocomplete="off">
+          </div>
+          <div class="campo">
+            <label for="filtro-esfera">Esfera</label>
+            <select id="filtro-esfera">
+              <option value="">Todas</option>
+              <option value="Estadual">Estadual</option>
+              <option value="Municipal">Municipal</option>
+              <option value="Federal">Federal</option>
+            </select>
+          </div>
+          <div class="campo">
+            <label for="filtro-tema">Tema</label>
+            <select id="filtro-tema">
+              <option value="">Todos</option>
+            </select>
+          </div>
+          <div class="campo">
+            <label for="ordem">Ordenar por</label>
+            <select id="ordem">
+              <option value="ano-desc">Mais recentes</option>
+              <option value="ano-asc">Mais antigas</option>
+              <option value="titulo-asc">Título (A–Z)</option>
+            </select>
+          </div>
+        </form>
+
+        <div class="barra-resultados">
+          <p id="contador-resultados" aria-live="polite"></p>
+          <div>
+            <button type="button" class="btn btn-contorno" id="btn-limpar">Limpar filtros</button>
+            <button type="button" class="btn btn-primario" id="btn-csv">Baixar planilha (CSV)</button>
+          </div>
+        </div>
+
+        <div class="lista-leis" id="lista-leis"></div>
+
+        <div class="aviso" role="note">
+          <strong>Aviso:</strong> os resumos têm caráter informativo e não substituem a leitura do texto integral. Antes de citar uma norma em parecer, projeto ou trabalho acadêmico, confira a redação vigente e eventuais alterações, regulamentações ou decisões judiciais nos portais oficiais:
+          <a href="https://www.al.sp.gov.br/" target="_blank" rel="noopener noreferrer">ALESP</a>,
+          <a href="https://legislacao.prefeitura.sp.gov.br/" target="_blank" rel="noopener noreferrer">Legislação Municipal de SP</a> e
+          <a href="https://www.planalto.gov.br/" target="_blank" rel="noopener noreferrer">Planalto</a>.
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p><strong>SPLegis Animal</strong> — Legislação de proteção animal em São Paulo.</p>
+        <p>© <span data-ano-atual></span> SPLegis Animal. Conteúdo informativo; não substitui a consulta aos textos oficiais.</p>
+      </div>
+      <p><a href="index.html">Início</a> · <a href="contato.html">Contato</a></p>
+    </div>
+  </footer>
+
+  <button class="voltar-topo" aria-label="Voltar ao topo">↑</button>
+
+  <script src="js/leis-dados.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/leis.js"></script>
+</body>
+</html>
