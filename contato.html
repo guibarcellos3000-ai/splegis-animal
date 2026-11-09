@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Entre em contato com o projeto SPLegis Animal.">
+  <title>Contato — SPLegis Animal</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html"><span class="logo-icon" aria-hidden="true">🐾</span> SPLegis <span class="destaque">Animal</span></a>
+      <nav aria-label="Menu principal">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">☰</button>
+        <ul class="nav-menu" id="menu">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="leis.html">Leis</a></li>
+          <li><a href="contato.html" aria-current="page">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="page-header">
+      <div class="container">
+        <h1>Contato</h1>
+        <p>Envie dúvidas, sugestões de normas, correções ou propostas de parceria. Respondemos o mais breve possível.</p>
+      </div>
+    </section>
+
+    <section class="secao">
+      <div class="container contato-grid">
+        <div class="card">
+          <div id="msg-sucesso" class="alerta alerta-sucesso" role="status" hidden></div>
+
+          <form id="form-contato" class="form" novalidate>
+            <div class="campo">
+              <label for="nome">Nome <span class="obrigatorio" aria-hidden="true">*</span></label>
+              <input type="text" id="nome" name="nome" autocomplete="name" required>
+              <div class="msg-erro" aria-live="polite"></div>
+            </div>
+
+            <div class="campo">
+              <label for="email">E-mail <span class="obrigatorio" aria-hidden="true">*</span></label>
+              <input type="email" id="email" name="email" autocomplete="email" required>
+              <div class="msg-erro" aria-live="polite"></div>
+            </div>
+
+            <div class="campo">
+              <label for="instituicao">Instituição / Órgão <small>(opcional)</small></label>
+              <input type="text" id="instituicao" name="instituicao" autocomplete="organization">
+            </div>
+
+            <div class="campo">
+              <label for="assunto">Assunto <span class="obrigatorio" aria-hidden="true">*</span></label>
+              <select id="assunto" name="assunto" required>
+                <option value="">Selecione…</option>
+                <option>Dúvida sobre legislação</option>
+                <option>Sugestão de nova norma</option>
+                <option>Correção de informação</option>
+                <option>Parceria / pesquisa</option>
+                <option>Imprensa</option>
+                <option>Outro</option>
+              </select>
+              <div class="msg-erro" aria-live="polite"></div>
+            </div>
+
+            <div class="campo">
+              <label for="mensagem">Mensagem <span class="obrigatorio" aria-hidden="true">*</span></label>
+              <textarea id="mensagem" name="mensagem" maxlength="2000" required></textarea>
+              <div class="contador" id="contador-chars">0/2000</div>
+              <div class="msg-erro" aria-live="polite"></div>
+            </div>
+
+            <div class="campo">
+              <div class="campo-check">
+                <input type="checkbox" id="consentimento" name="consentimento" required>
+                <label for="consentimento">Concordo que meus dados sejam usados apenas para responder a este contato, nos termos da LGPD (Lei nº 13.709/2018).</label>
+              </div>
+              <div class="msg-erro" aria-live="polite"></div>
+            </div>
+
+            <button type="submit" class="btn btn-primario">Enviar mensagem</button>
+          </form>
+        </div>
+
+        <aside class="card info-contato">
+          <h2>Outros canais</h2>
+          <ul>
+            <li><strong>E-mail</strong><a href="#" data-email-destino></a></li>
+            <li><strong>Localização</strong>São Paulo – SP</li>
+          </ul>
+          <h2>Denúncias de maus-tratos</h2>
+          <p>Este canal não recebe denúncias. Em caso de maus-tratos, ligue <strong>190</strong> ou registre ocorrência na <a href="https://www.delegaciaeletronica.policiacivil.sp.gov.br/" target="_blank" rel="noopener noreferrer">Delegacia Eletrônica</a>.</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p><strong>SPLegis Animal</strong> — Legislação de proteção animal em São Paulo.</p>
+        <p>© <span data-ano-atual></span> SPLegis Animal. Conteúdo informativo; não substitui a consulta aos textos oficiais.</p>
+      </div>
+      <p><a href="index.html">Início</a> · <a href="leis.html">Leis</a></p>
+    </div>
+  </footer>
+
+  <button class="voltar-topo" aria-label="Voltar ao topo">↑</button>
+
+  <script src="js/main.js"></script>
+  <script src="js/contato.js"></script>
+</body>
+</html>
