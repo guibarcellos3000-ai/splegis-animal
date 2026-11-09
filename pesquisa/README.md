@@ -9,6 +9,7 @@ Levantamento feito em 09/11/2026 nos dados oficiais da Câmara Municipal de São
 | `SPLegis-Animal-Projetos-de-Lei.xlsx` | Planilha principal: abas **Leia-me** (critérios e resumo), **Projetos** (todos os incluídos), **Em tramitação** e **Excluídos** (com o motivo) |
 | `projetos-incluidos.csv` | Mesma lista da aba "Projetos", em CSV (abre no Excel) |
 | `projetos-excluidos.csv` | Projetos retirados da lista e o motivo |
+| `inteiro-teor/` | Inteiro teor, em Markdown, dos 264 projetos **em tramitação** (um arquivo por projeto, índice no `README.md` e todos juntos em `todos-os-projetos.md`) |
 | `scripts/` | Scripts em Python usados na coleta, para refazer ou atualizar a pesquisa |
 
 ## Método
@@ -33,6 +34,8 @@ python3 selecionar.py         # aplica a revisão manual (listas no script)
 python3 fichas.py             # consulta a ficha de cada projeto
 python3 reparse.py            # detalha os pareceres da CCJ
 python3 montar.py             # gera a planilha
+python3 inteiro_teor.py       # baixa e faz OCR do texto inicial dos projetos em tramitação (requer tesseract-ocr-por)
+python3 markdown.py           # gera os arquivos Markdown do inteiro teor
 ```
 
 > A classificação por **tema** é automática (por palavras-chave) e serve para facilitar os filtros; confira a ementa antes de usar em documento técnico.
