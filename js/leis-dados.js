@@ -216,5 +216,25 @@ const LEIS = [
       "Pena aumentada de 1/6 a 1/3 se ocorrer a morte do animal."
     ],
     fonte: "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14064.htm"
+  },
+  {
+    id: "lei-mun-17580-2021",
+    esfera: "Municipal",
+    tipo: "Lei",
+    numero: "17.580",
+    ano: 2021,
+    data: "26/07/2021",
+    titulo: "Programa Banco de Ração do Município de São Paulo",
+    ementa:
+      "Institui o Programa Banco de Ração, para captar doações de rações e distribuí-las a protetores independentes, organizações da sociedade civil, pessoas com transtorno de acumulação de animais e famílias em vulnerabilidade alimentar e nutricional (PL 238/2020). Regulamentada pelo Decreto nº 64.820, de 15/12/2025.",
+    temas: ["Cães e gatos", "Protetores independentes", "Segurança alimentar"],
+    pontos: [
+      "Distribuição direta pela Prefeitura ou por parcerias com organizações da sociedade civil (art. 1º, § 1º).",
+      "Beneficiários: protetores cadastrados no PAPI, OSCs cadastradas na SVMA, pessoas com transtorno de acumulação e famílias vulneráveis (art. 2º, II).",
+      "Arrecadação e distribuição sem ônus para o Município, ressalvados custos indiretos (art. 2º, parágrafo único).",
+      "Proíbe a comercialização dos alimentos doados (art. 5º).",
+      "Coordenação pela SESANA, com apoio técnico da Saúde e do Verde e Meio Ambiente, segundo o Decreto nº 64.820/2025."
+    ],
+    fonte: "https://www.saopaulo.sp.leg.br/iah/fulltext/leis/L17580.pdf"
   }
 ];
