@@ -24,7 +24,7 @@ Cada informação vem com o grau de confirmação:
 ## 0. Sumário executivo
 
 1. **O nome da lei.** Não existe em São Paulo uma lei vigente chamada "Banco de Rações e Utensílios para Animais". A lei vigente é a **Lei nº 17.580/2021, "Programa Banco de Ração"**, que trata **apenas de ração**. O "Banco de Ração **e Utensílios** para Animais" é o **PL 281/2017** (Isac Félix e Atílio Francisco). Ele **nunca virou lei**, mas está **pronto para a pauta do Plenário** desde fevereiro de 2025 **[P]**.
-2. **Regulamentação.** A lei foi regulamentada pelo **Decreto nº 64.820, de 15/12/2025**, cerca de **4 anos e 5 meses depois** da sanção. Um documento oficial da Câmara (justificativa do PL 86/2026) confirma o número **[P]**. Segundo fontes secundárias, o decreto entrega a coordenação à **SESANA** (Secretaria Executiva de Segurança Alimentar e Nutricional e de Abastecimento, ligada à Secretaria Municipal de Direitos Humanos e Cidadania), com apoio técnico da Saúde e do Verde e Meio Ambiente **[S]**.
+2. **Regulamentação.** A lei foi regulamentada pelo **Decreto nº 64.820, de 15/12/2025**, cerca de **4 anos e 5 meses depois** da sanção **[P]**. O decreto entrega a execução à **SESANA** (Secretaria Executiva de Segurança Alimentar e Nutricional e de Abastecimento, ligada à Secretaria Municipal de Direitos Humanos e Cidadania), cria um protocolo sanitário e define quem indica os beneficiários. Mas exige nota fiscal de toda doação e não dá porta de entrada às OSCs **[P]**.
 3. **Implementação.** **Não há evidência pública de que o Banco de Ração esteja funcionando** como programa próprio. A página oficial da SESANA o descreve como "em fase de implantação", com operação prevista para 2026 **[S]**. Existe distribuição de ração para pets pelo **Banco de Alimentos e pelos Armazéns Solidários** (para quem está no CadÚnico), mas isso **não é o Banco de Ração da Lei 17.580** **[S]**.
 4. **Lacuna de informação documentada.** Em maio de 2024, o próprio autor da lei pediu ao Prefeito informações sobre órgão gestor, critérios, recursos e relatórios (RPS 8/2024). O requerimento **nunca foi votado** e foi arquivado no fim da legislatura, **sem resposta** **[P]**.
 5. **Dificuldades já documentadas** (pareceres técnicos da Prefeitura de 2018 sobre o PL 281/2017) **[P]**:
@@ -88,16 +88,29 @@ Cada informação vem com o grau de confirmação:
 **Sim.** Foi regulamentada pelo **Decreto nº 64.820, de 15 de dezembro de 2025**.
 
 - **[P]** A justificativa do PL 86/2026 (Simone Ganem e Amanda Vettorazzo; DOC de 13/02/2026, p. 754) afirma: "o Município de São Paulo já conta com o Programa Banco de Ração instituído pela Lei Municipal nº 17.580/2021, regulamentado pelo Decreto Municipal nº 64.820/2025", com foco em "cães e gatos".
-- **[S]** Conteúdo do decreto, segundo o catálogo da Prefeitura e notícias:
-  - coordenação da **SESANA**, vinculada à **Secretaria Municipal de Direitos Humanos e Cidadania (SMDHC)**;
-  - **apoio técnico** da Secretaria Municipal da Saúde e da Secretaria do Verde e Meio Ambiente;
-  - repete os beneficiários da lei (PAPI, OSCs cadastradas na SVMA, pessoas com transtorno de acumulação, famílias vulneráveis);
-  - restringe o objeto a **cães e gatos**;
-  - o **art. 7º** autoriza a SESANA a editar **normas complementares**;
-  - entra em vigor na data da publicação.
-- **[S]** Até a data da pesquisa, **não foram localizadas** as normas complementares da SESANA (portarias, protocolos, critérios de cadastro), nem edital ou chamamento de OSCs.
-
-**Pendência:** conferir o texto integral do decreto no Portal da Legislação Municipal e no DOC de 16/12/2025, sobretudo: critérios de distribuição, cadastro, local de armazenagem, uso do CadÚnico, prazos e controles.
+- **[P]** Texto integral do decreto lido (cópia do Catálogo de Legislação Municipal, enviada pelo usuário). São 8 artigos:
+  - **Art. 1º:** regulamenta a lei e limita o programa a rações para **cães e gatos**.
+  - **Art. 2º:** só aceita ração comercial de marca registrada, em embalagem original lacrada, dentro da validade e bem armazenada.
+  - **Art. 3º, I:** mantém as fontes de doação da lei, mas exige **nota fiscal** e embalagem intacta. Apreensões só se o motivo não tornar o alimento impróprio.
+  - **Art. 3º, II:** repete os quatro grupos de beneficiários; o PAPI é gerido pela **COSAP/SMS**.
+  - **Art. 4º:** a **SESANA** (Secretaria Municipal de Direitos Humanos e Cidadania) capta, armazena e distribui diretamente ou por parcerias com OSCs. SMS e SVMA dão suporte técnico.
+  - **Art. 5º:** indicação anual dos beneficiários:
+    - COSAP envia a lista do PAPI;
+    - COVISA envia a lista de pessoas em situação de acumulação, a partir dos Comitês Regionais de Atenção à Pessoa em Situação de Acumulação (CRASA) das Subprefeituras;
+    - SMADS e SMDHC enviam a lista de famílias **assistidas** em vulnerabilidade que têm animais.
+  - **Art. 6º:** proíbe a destinação comercial. **Art. 7º:** a SESANA edita normas complementares. **Art. 8º:** vigência na publicação.
+- **[A]** O decreto **resolveu**:
+  - o órgão executor;
+  - o protocolo sanitário de recebimento;
+  - a restrição às apreensões;
+  - a ligação com a rede de acumulação e a assistência social.
+- **[A]** O decreto **deixou em aberto ou criou**:
+  - as OSCs da SVMA são beneficiárias, mas **nenhum órgão as indica** (art. 5º);
+  - a **nota fiscal obrigatória** pode afastar doações de pessoas físicas e campanhas;
+  - famílias **não assistidas** ficam de fora, embora a lei diga "assistidas ou não";
+  - faltam quantidades, prioridades, frequência, pontos de coleta e transparência, tudo delegado às normas complementares;
+  - repete "pessoas portadoras de transtorno".
+- **[S]** Até a data da pesquisa, **não foram localizadas** as normas complementares da SESANA, nem edital ou chamamento de OSCs.
 
 ### 2.2 Falta de regulamentação × falta de implementação **[A]**
 
